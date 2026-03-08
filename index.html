@@ -3,18 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Personal Portfolio of a Modern Web Developer">
-    <title>Shivam Shashwati | Web Developer</title>
+    <meta name="description" content="Portfolio of Shivam Shashwati - Full Stack Developer">
+    <title>SHIVAM SHASHWATI | DEV_V1.0</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
         <div class="container">
-            <div class="logo">S.Shashwati</div>
+            <div class="status-online">
+                <div class="status-dot"></div>
+                STATUS: ONLINE
+            </div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
                 <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -22,83 +25,111 @@
 
     <header class="hero">
         <div class="container hero-content">
-            <h1>Building <span>Experiences</span> that Matter.</h1>
-            <p>I'm a Full-Stack Developer passionate about crafting beautiful, high-performance web applications with modern technologies.</p>
-            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <div class="hero-text">
+                <div class="sequence-tag">SEQ_01 // IDENTITY</div>
+                <h1>
+                    <span class="name-first">SHIVAM</span><br>
+                    <span class="name-last">SHASHWATI</span>
+                </h1>
+                <div class="hero-terminal">
+                    <p>> INITIALIZING BACKEND_CORE...</p>
+                    <p>> CRAFTING HIGH-PERFORMANCE SYSTEMS.</p>
+                    <p>> EXPLORING AI_FRONT_MODELS.</p>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop" alt="Shivam Shashwati">
+            </div>
         </div>
     </header>
 
     <section id="about">
         <div class="container">
-            <h2 class="section-title">About <span>Me</span></h2>
-            <div class="project-card">
-                <p>I specialize in creating immersive digital experiences. With a strong foundation in both front-end and back-end development, I bridge the gap between complex engineering and elegant design. My goal is to build software that is not only functional but also a joy to use.</p>
+            <div class="section-header">
+                <h2 class="section-title"><span>//</span> ABOUT_ME</h2>
             </div>
-        </div>
-    </section>
-
-    <section id="projects">
-        <div class="container">
-            <h2 class="section-title">Selected <span>Works</span></h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <h3>Zen Sliding Puzzle</h3>
-                    <p>A high-end sliding puzzle game with glassmorphic design and solvability-guaranteed algorithms.</p>
-                    <div class="tags">
-                        <span class="tag">JavaScript</span>
-                        <span class="tag">Glassmorphism</span>
-                        <span class="tag">Algorithm</span>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <h3>Project Nexus</h3>
-                    <p>A real-time data visualization dashboard featuring cutting-edge interactive charts and dark mode UI.</p>
-                    <div class="tags">
-                        <span class="tag">React</span>
-                        <span class="tag">D3.js</span>
-                        <span class="tag">Tailwind</span>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <h3>Aura Ecommerce</h3>
-                    <p>A premium shopping experience focusing on minimalist aesthetics and lightning-fast performance.</p>
-                    <div class="tags">
-                        <span class="tag">Next.js</span>
-                        <span class="tag">Stripe</span>
-                        <span class="tag">Aesthetics</span>
-                    </div>
-                </div>
+            <div class="hero-terminal" style="border-right: 2px solid var(--accent-color); border-left: none;">
+                <p>I specialize in building scalable architecture and high-fidelity digital interfaces. My focus is on the intersection of deep-level backend systems and modern, reactive frontend frameworks. Dedicated to writing clean, optimized code that powers complex web ecosystems.</p>
             </div>
         </div>
     </section>
 
     <section id="skills">
         <div class="container">
-            <h2 class="section-title">The <span>Toolkit</span></h2>
-            <div class="skills-container">
-                <div class="skill-item">HTML5</div>
-                <div class="skill-item">CSS3</div>
-                <div class="skill-item">JavaScript</div>
-                <div class="skill-item">React</div>
-                <div class="skill-item">Next.js</div>
-                <div class="skill-item">Node.js</div>
-                <div class="skill-item">PostgreSQL</div>
-                <div class="skill-item">Git</div>
+            <div class="section-header">
+                <h2 class="section-title"><span>//</span> CORE_EXPERTISE</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>C / C++</h3>
+                    <p class="skill-verified">[ VERIFIED ]</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Python / AI</h3>
+                    <p class="skill-verified">[ VERIFIED ]</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Node.js</h3>
+                    <p class="skill-verified">[ VERIFIED ]</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Machine Learning</h3>
+                    <p class="skill-verified">[ VERIFIED ]</p>
+                </div>
+                <div class="skill-card">
+                    <h3>GCP / Cloud</h3>
+                    <p class="skill-verified">[ VERIFIED ]</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Git / DevOps</h3>
+                    <p class="skill-verified">[ VERIFIED ]</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <section id="contact">
-        <div class="container" style="text-align: center;">
-            <h2 class="section-title">Let's <span>Connect</span></h2>
-            <p style="margin-bottom: 2rem; color: var(--text-muted);">Interested in working together or just want to say hi?</p>
-            <a href="mailto:your.email@example.com" class="btn btn-primary">Send a Message</a>
+    <section id="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title"><span>//</span> FEATURED_PROJECTS</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>ZEN_PUZZLE</h3>
+                    <p>A high-fidelity sliding puzzle engine built with modern JavaScript and complex solvability algorithms.</p>
+                    <p class="skill-verified">> REPO_LINK_ACTIVE</p>
+                </div>
+                <div class="project-card">
+                    <h3>STATMAXER_OS</h3>
+                    <p>Advanced habit tracking system with integrated RPG progression mechanics for peak performance mapping.</p>
+                    <p class="skill-verified">> DEPLOYED_V2.1</p>
+                </div>
+                <div class="project-card">
+                    <h3>MY_SAFETY_V1</h3>
+                    <p>Real-time personal protection platform with geolocation matrix and emergency uplink protocols.</p>
+                    <p class="skill-verified">> PROTOTYPE_DONE</p>
+                </div>
+                <div class="project-card">
+                    <h3>TEMP_IO</h3>
+                    <p>Weather intelligence engine providing hyper-local data visualizations across the Indian subcontinent.</p>
+                    <p class="skill-verified">> DATA_SYNC_READY</p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <footer>
+    <section id="contact" class="contact-hero">
         <div class="container">
-            <p>&copy; 2026 Shivam Shashwati. Built with Passion.</p>
+            <div class="section-header">
+                <h2 class="section-title"><span>//</span> ESTABLISH_UPLINK</h2>
+            </div>
+            <a href="mailto:hello@shivam.sh" class="btn btn-contact">SEND_MESSAGE</a>
+        </div>
+    </section>
+
+    <footer style="padding: 4rem 0; text-align: center; border-top: 1px solid rgba(255, 255, 255, 0.05); color: var(--text-secondary); font-size: 0.7rem;">
+        <div class="container">
+            <p>&copy; 2026 SHIVAM SHASHWATI. ALL RIGHTS RESERVED. // OPERATING_MODE: PRODUCTION</p>
         </div>
     </footer>
 
