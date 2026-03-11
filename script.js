@@ -37,4 +37,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const scrolled = window.scrollY;
         logo.style.transform = `scale(${1 + scrolled * 0.0001})`;
     });
+
+    // Initialize Lucide icons
+    lucide.createIcons();
 });

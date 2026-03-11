@@ -259,27 +259,111 @@ section {
 }
 
 /* Contact */
-.contact-hero {
-    text-align: center;
-    padding: 150px 0;
+/* Contact Section Styles */
+.contact-section {
+    padding: 100px 0;
+    position: relative;
 }
 
-.btn-contact {
-    display: inline-block;
-    border: 1px solid var(--accent-color);
-    color: var(--accent-color);
-    padding: 1.5rem 4rem;
-    font-size: 1.5rem;
-    font-weight: 700;
+.contact-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    max-width: 500px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.contact-card {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.icon-box {
+    width: 60px;
+    height: 60px;
+    background: #111111;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8B5CF6; /* Vibrant Purple from image */
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: 1px solid rgba(255, 255, 255, 0.03);
+}
+
+.contact-card:hover .icon-box {
+    background: #1a1a1a;
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 10px 30px rgba(139, 92, 246, 0.2);
+    border-color: rgba(139, 92, 246, 0.4);
+}
+
+.icon-box i {
+    width: 28px;
+    height: 28px;
+    stroke-width: 2.5;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.label {
+    font-size: 1.2rem;
+    font-weight: 800;
+    font-family: var(--font-heading);
+    color: #ffffff;
+    letter-spacing: -0.02em;
+}
+
+.value {
+    font-size: 1.1rem;
+    color: #ffffff;
     text-decoration: none;
-    text-transform: uppercase;
+    font-family: var(--font-mono);
+    opacity: 0.8;
     transition: all 0.3s ease;
 }
 
-.btn-contact:hover {
-    background: var(--accent-color);
-    color: #000;
-    box-shadow: 0 0 30px var(--accent-color);
+.value:hover {
+    color: #8B5CF6;
+    opacity: 1;
+}
+
+.social-links {
+    display: flex;
+    gap: 2.5rem;
+    padding-top: 1.5rem;
+    align-items: center;
+}
+
+.social-icon {
+    color: #ffffff;
+    opacity: 0.5;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icon:hover {
+    color: #8B5CF6;
+    opacity: 1;
+    transform: translateY(-8px) scale(1.2);
+}
+
+.social-icon i {
+    width: 32px;
+    height: 32px;
+    stroke-width: 2;
 }
 
 @media (max-width: 992px) {
